@@ -12,9 +12,9 @@ class MyClass{
 
 
 $asad = new MyClass();
-$asad->a = 11;
-$asad->x = 10;
-$asad->y = 15;
+$asad->a = 100;
+$asad->x = 500;
+$asad->y = 500;
 echo $asad-> mysum();
 
 
