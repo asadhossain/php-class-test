@@ -1,7 +1,18 @@
 <?php
 
+class MyClass{
+    public $x, $y, $z;
 
-asad
+    public function mysum(){
+        
+    }
+
+
+
+}
+
+
+
 
 
 ?>
