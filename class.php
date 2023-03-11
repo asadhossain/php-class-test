@@ -5,7 +5,7 @@ class MyClass{
 
     public function __construct($b, $c){
         $this->x = $b;
-        $this->y = $c;
+        $this->y = $c; 
 
     }
 
@@ -17,10 +17,8 @@ class MyClass{
 }
 
 
-$asad = new MyClass();
-$asad->a = 100;
-$asad->x = 500;
-$asad->y = 500;
+$asad = new MyClass(200, 200, 100);
+
 echo $asad-> mysum();
 
 
